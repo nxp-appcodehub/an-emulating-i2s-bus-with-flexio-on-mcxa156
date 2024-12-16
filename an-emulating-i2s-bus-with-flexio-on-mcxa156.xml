@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="app_note" format="projectfile" versionSchema="1.0.0" name="emulating i2s bus with flexio on mcxa156" uuid="29df7744-4764-4421-9455-7b5319ab1844">
+    <display_title>
+        emulating i2s bus with flexio on mcxa156
+    </display_title>
+    <overview>
+        <![CDATA[This application note describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156. The audio function is tested using the codec on LPCXpress55s69 board.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA156"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="dma"></peripheral>
+        <peripheral name="flexio"></peripheral>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="usb"></peripheral>
+        <peripheral name="i2s"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="audio"></category>
+    </categories>
+</data:item>

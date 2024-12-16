@@ -1,0 +1,17 @@
+NXP Software Content Register
+
+Package:                   an-emulating-i2s-bus-with-flexio-on-mcxa156
+Version:                   1.0
+Outgoing License:          BSD-3-Clause
+License File:              LICENSE
+Description and comments:  This application note code describes how to emulate I2S interface with FlexIO on MCXA156 and implement a USB speaker device on MCXA156.  
+Release Location:          https://github.com/nxp-appcodehub/an-emulating-i2s-bus-with-flexio-on-mcxa156
+Origin:                    NXP (BSD-3-Clause)
+                           CMSIS V5.8.0 (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0
+                             
+Binary:                    lpc55s69_i2s_mclk.bin
+Outgoing License:          BSD-3-Clause
+License FileL              LICENSE
+Description and comments:  The lpc55s69_i2s_mclk.bin file is developed based on i2s_edma_transfer example in LPCXpresso55S69 SDK, removed the I2S and Codec configurations, only keep the MCLK generation function. 
+Origin:                    NXP (BSD-3-Clause)
+                           CMSIS V5.8.0 (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0
